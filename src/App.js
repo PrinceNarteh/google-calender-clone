@@ -8,7 +8,7 @@ function App() {
   const [currentMonth, setCurrentMonth] = useState(getMonth());
 
   return (
-    <div className="h-screen flex flex-col">
+    <div className="h-screen flex flex-col font-Itim">
       <CalendarHeader />
       <div className="flex flex-1">
         <Sidebar />
